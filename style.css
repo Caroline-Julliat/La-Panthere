@@ -666,7 +666,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 570px;
     margin: auto auto auto auto;
 }
 
@@ -726,6 +726,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .portfolio-row {
@@ -816,6 +818,7 @@ h4 {
 .opinion-legend{
     font-size: 20px;
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1003,7 +1006,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 20px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1018,17 +1021,22 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .portfolio-row {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .mg-lg_responsive {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
