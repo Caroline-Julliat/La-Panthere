@@ -802,6 +802,21 @@ h4 {
     background-image: url("img/bg-contact.webp");
 }
 
+.opinion-quote{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: italic;
+    border-left: none;
+    margin: auto;
+    max-width: 50%;
+    min-width: 90%
+}
+
+.opinion-legend{
+    font-size: 20px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
