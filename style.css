@@ -661,6 +661,12 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
     border-left: none;
+    color: #413d3d;
+}
+
+.statement-bloc-text, .statement-legend{
+    font-size: 20px;
+    color: #413d3d;
 }
 
 p {
@@ -806,12 +812,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
     }
-  
-   
-        
-        
-    
-}
 
 .bg-contact {
     background-image:
