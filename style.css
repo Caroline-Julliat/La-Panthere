@@ -118,7 +118,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(65, 61, 61, .4);
 }
 
 .d-bloc .a-btn:hover,
@@ -135,7 +135,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(65, 61, 61, .9);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -281,7 +281,6 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -639,7 +638,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #413d3d!important;
 }
 
 .container {
@@ -659,13 +658,13 @@ a {
     font-style: italic;
     font-size: 20px;
     text-align: center;
-    font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
+    border-left: none;
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -743,7 +742,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(74, 66, 42, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -757,16 +756,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #CF490F;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #CF490F!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #CF490F;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #413d3d!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -783,7 +782,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #CF490F!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -796,31 +795,32 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/image-de-fond.webp");
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+        ), url("img/image-de-fond.webp");
+    
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+    }
+  
+   
+        
+        
+    
 }
 
 .bg-contact {
-    background-image: url("img/bg-contact.webp");
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+        ), url("img/bg-contact.webp");
 }
 
-.opinion-quote{
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 20px;
-    font-style: italic;
-    border-left: none;
-    margin: auto;
-    max-width: 50%;
-    min-width: 90%
-}
-
-.opinion-legend{
-    font-size: 20px;
-}
 
 
 
@@ -1035,6 +1035,10 @@ h4 {
     .mg-lg_responsive {
         margin-top: 10px;
         margin-bottom: 40px;
+    }
+    .flex-row-sb{
+        display: flex;
+        justify-content: space-between;
     }
 }
 
