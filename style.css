@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -444,10 +443,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -821,6 +816,25 @@ h4 {
         ), url("img/bg-contact.webp");
 }
 
+.skiplink{
+    position: relative;
+    z-index: 100;
+    
+}
+.skiplink__item {
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-color: #413d3d;
+    margin: auto;
+    text-align: center;
+    z-index: 100;
+    left: -99999rem;
+ }
+
+.skiplink__item:focus {
+    left: 0;
+ }
 
 
 
